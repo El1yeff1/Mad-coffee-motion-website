@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm build"
+  publish = "artifacts/mad-coffee/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

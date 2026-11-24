@@ -1,0 +1,13 @@
+{
+  "name": "mad-coffee-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @workspace/mad-coffee run dev",
+    "build": "pnpm --filter @workspace/mad-coffee run build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
